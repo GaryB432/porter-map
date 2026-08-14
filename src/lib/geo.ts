@@ -83,8 +83,8 @@ if (browser) {
 			id: '',
 			label: '',
 			kind: 'tower',
-			lat: 0,
-			lon: 0
+			lat,
+			lon
 		};
 		console.log(JSON.stringify({ fd, lat, lon }));
 
