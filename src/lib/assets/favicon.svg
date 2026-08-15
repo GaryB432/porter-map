@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#2563EB" />
+            <stop offset="100%" stop-color="#0EA5A0" />
+        </linearGradient>
+    </defs>
+
+    <!-- background -->
+    <rect x="0" y="0" width="32" height="32" rx="7" fill="url(#bg)" />
+
+    <!-- floor plan corner marks, suggests an indoor map -->
+    <path
+        d="M6 9 V6 H9"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="1.4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.55"
+    />
+    <path
+        d="M26 9 V6 H23"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="1.4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.55"
+    />
+    <path
+        d="M6 23 V26 H9"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="1.4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.55"
+    />
+    <path
+        d="M26 23 V26 H23"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="1.4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.55"
+    />
+
+    <!-- dotted navigation path -->
+    <path
+        d="M10 22 L14 16 L20 12"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="1.6"
+        stroke-linecap="round"
+        stroke-dasharray="0.2 3.4"
+        opacity="0.9"
+    />
+
+    <!-- location pin -->
+    <path d="M20 12c0-2.76-2.24-5-5-5s-5 2.24-5 5c0 3.75 5 9 5 9s5-5.25 5-9z" fill="#FFFFFF" />
+    <circle cx="15" cy="12" r="2" fill="#2563EB" />
+</svg>
